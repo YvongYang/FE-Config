@@ -33,11 +33,12 @@
     "man": "src"
   },
   "scripts": {
-    "eslint": "eslint src",
     "build": "webpack -p --progress",
     "watch": "webpack -w --progress --mode=development",
     "start": "webpack-dev-server --env.NODE_ENV=development --progress",
-    "analysis": "webpack --profile --json > logs/stats.json"
+    "analysis": "webpack --profile --json > logs/stats.json",
+    "eslint": "eslint src example",
+    "test": "npm run eslint"
   },
   "repository": {
     "type": "git",
