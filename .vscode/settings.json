@@ -1,3 +1,7 @@
 {
-  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  /* @eslint extension */
+  "eslint.alwaysShowStatus": true,
+  // "eslint.enable": false,
+  // "eslint.autoFixOnSave": true,
 }
