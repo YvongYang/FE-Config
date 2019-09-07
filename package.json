@@ -1,0 +1,50 @@
+{
+  "name": "fe-config",
+  "version": "1.0.0",
+  "description": "Front-End Engineering Configuration",
+  "keywords": [
+    "Front-End Engineering Configuration",
+    "git-configuration",
+    "gitignore",
+    "gitattributes",
+    "vscode-settings",
+    "editor-config",
+    "nvmrc",
+    "npmrc",
+    "package-json",
+    "babel-config",
+    "typescript-config",
+    "webpack-config",
+    "eslint-config",
+    "stylelint-config",
+    "pm2-config",
+    "nginx-config",
+    "docker-config",
+    "travis-config"
+  ],
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "bin": "bin",
+    "example": "example",
+    "test": "test",
+    "lib": "lib",
+    "man": "src"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhilidali/FE-Config.git"
+  },
+  "author": "zhilidali@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhilidali/FE-Config/issues"
+  },
+  "homepage": "https://github.com/zhilidali/FE-Config#readme",
+  "devDependencies": {
+    "husky": "^3.0.5"
+  }
+}
