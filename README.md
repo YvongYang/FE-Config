@@ -1,11 +1,13 @@
-# FE-Config
-> __Front-End Engineering Configuration__
+# Front-End Engineering Configuration
+![FE Config](https://repository-images.githubusercontent.com/206890549/9aa3e580-d1bc-11e9-9711-e5a4ef0f2c88)
 
 ## Authoring Configuration
+> __Preparation__
 
 __[Git](Git)__
 +	[x] [.gitattributes](.gitattributes)
 +	[x] [.gitignore](.gitignore)
++	[x] [Husky](.huskyrc.js)
 
 __[VSCode](VSCode)__
 +	[x] [VSCode:extensions](.vscode/extensions.json)
@@ -21,16 +23,17 @@ __[npm](npm)__
 +	[x] [npm](.npmrc)
 
 ## Building Configuration
+> __build__
 
 __[Babel](Babel)__
 +	[x] [Babel](.babel.config.js)
 +	[x] [Browserslist](.browserslistrc)
 
 __[TypeScript](TypeScript)__
-+	[ ] [TypeScript](tsconfig.json)
++	[x] [TypeScript](tsconfig.json)
 
 __[webpack](webpack)__
-+	[ ] [webpack](webpack.config.js)
++	[x] [webpack](webpack.config.js)
 
 ```sh
 # Babel
@@ -47,12 +50,13 @@ npm i -D clean-webpack-plugin html-webpack-plugin mini-css-extract-plugin
 ```
 
 ## Coding Configuration
+> code
 
 __[ESlint](ESlint)__
-+	[ ] [ESlint](.eslintrc.js)
++	[x] [ESlint](.eslintrc.js)
 
 __[stylelint](stylelint)__
-+	[ ] [stylelint](.stylelintrc.js)
++	[x] [stylelint](.stylelintrc.js)
 
 ```sh
 npm i -D husky
@@ -62,11 +66,15 @@ npm i -D stylelint postcss-loader
 ```
 
 ## Deploying Configuration
-+	[ ] __[PM2](ecosystem.config.js)__
-+	[ ] __[nginx](nginx.md)__
-+	[ ] __[docker](docker.md)__
-+	[ ] __[travis](./travis.yml)__
+> CI && CD
 
++	[x] __[PM2](server/ecosystem.config.js)__
++	[ ] __nginx__
++	[ ] __docker__
++	[x] __[travis](./travis.yml)__
+
+## License
+[MIT License](/LICENSE)
 
 [Git]: https://github.com/git/git
 [VSCode]: https://github.com/microsoft/vscode
