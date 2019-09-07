@@ -1,6 +1,11 @@
 # Front-End Engineering Configuration
 ![FE Config](https://repository-images.githubusercontent.com/206890549/9aa3e580-d1bc-11e9-9711-e5a4ef0f2c88)
 
+## ToDo
+* prettier
+* stylelint
+* pm2
+
 ## Authoring Configuration
 > __Preparation__
 
