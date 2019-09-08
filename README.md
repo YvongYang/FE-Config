@@ -2,9 +2,9 @@
 ![FE Config](https://repository-images.githubusercontent.com/206890549/9aa3e580-d1bc-11e9-9711-e5a4ef0f2c88)
 
 ## ToDo
-* prettier
-* stylelint
-* pm2
+* [ ] prettier
+* [ ] stylelint
+* [ ] pm2
 
 ## Authoring Configuration
 > __Preparation__
@@ -61,7 +61,7 @@ __[ESlint](ESlint)__
 +	[x] [ESlint](.eslintrc.js)
 
 __[stylelint](stylelint)__
-+	[x] [stylelint](.stylelintrc.js)
++	[ ] [stylelint](.stylelintrc.js)
 
 ```sh
 npm i -D husky
@@ -73,7 +73,7 @@ npm i -D stylelint postcss-loader
 ## Deploying Configuration
 > CI && CD
 
-+	[x] __[PM2](server/ecosystem.config.js)__
++	[ ] __[PM2](server/ecosystem.config.js)__
 +	[ ] __nginx__
 +	[ ] __docker__
 +	[x] __[travis](./travis.yml)__
